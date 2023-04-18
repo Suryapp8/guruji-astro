@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.astologers-cards{
+    padding-top: 0.5rem;
+    background-color: #FFEFE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 165vh
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 20px repeat(6, 1fr) 20px;
+    width: 25%;
+    height: 25.5rem;
+    transition: transform .2s;
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   border-radius: 7.41429px;
+   background-color: radial-gradient(69.29% 49.88% at 102.32% 101.97%, rgba(0, 0, 0, 0.7) 12.59%, rgba(0, 0, 0, 0.372048) 45.56%, rgba(0, 0, 0, 0) 100%);
+   margin: 0 1rem;
+}
+
+
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-top{
+    width:fit-content;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.8rem;
+    color: #fff;
+    height: 6rem;
+    
+}
+.experience{
+    position: absolute;
+    top: 5%;
+    left: 5%
+}
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.2rem;
+    padding-right: 0.5rem
+    
+}
+
+.online-circle{
+    margin-right: 0.5rem;
+   background-color: #2CDC00;
+   height: 0.6rem;
+   width: 0.6rem;
+   border-radius: 50%;
+   margin: 0.4rem;
+}
+
+.card-middle{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.card-middle > h2 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1.39rem;
+    line-height: 0.285rem;
+    color: #fff;
+}
+
+.card-middle > p{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.31rem;
+    letter-spacing: 1px;
+    color: #FFDBC0;
+    mix-blend-mode: normal;
+
+    margin-bottom: 0;
+}
+
+.first-para{
+    margin-top: 2.5rem;
+}
+
+.card-middle > h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    color: #fff;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+}
+.price{
+    position: absolute;
+    top: 75%;
+    left: 70%;
+}
+
+.price > p{
+    font-family: poppins;
+    
+font-weight: 700;
+font-size: 0.87rem;
+line-height: 1.3rem;
+color: #5CE449;
+margin-bottom: 0;
+}
+
+.price > h3{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1.7rem;
+line-height: 2rem;
+color: #5CE449;
+}
+
+.ruppe-icon{
+    height: 2rem;
+    width: 1.8rem;
+}
+
+.per-min{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1rem;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: #5CE449;
+
+}
+
+.chat-call{
+    
+    
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1.05rem;
+line-height: 1.4rem;
+
+color: #FDFDFD;
+
+
+}
+
+.chat{
+    position: absolute;
+    top: 95%;
+    left: 0%;
+    background-color: #A95210;
+    width: 49.8%;
+    padding-left: 15%;
+    padding-top: 1rem;
+    height: 3.25rem;
+    margin-top: 1rem;
+    border-radius: 0 0 0 0.8rem;
+    
+}
+
+.chat > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+.call{
+    position: absolute;
+    top: 95%;
+    left: 49%;
+    background-color: #A95210;
+    width: 51%;
+    padding-left: 15%;
+    padding-top: 1rem;
+    height: 3.25rem;
+    margin-top: 1rem;
+    border-radius: 0 0 0.8rem  ;
+    border-left: 1px solid #FFDBC0;
+}
+
+.call > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}

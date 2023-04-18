@@ -1,0 +1,113 @@
+.container-head{
+    background-color: #FFEFE3;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFEFE3;
+    
+}
+
+
+.test-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.8rem;
+    
+}
+
+.test-logo > img{
+  height: 5.62rem;
+  width: 5.98rem;
+}
+
+.test-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.test-about > img{
+    height: 1.68rem ;
+    width: 1.81rem;
+    margin-right: 1.18rem;
+    margin-left: 1.18rem;
+}
+
+.test-about > h2{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 128%;
+    letter-spacing: 8.5%;
+    color: #D97122;
+}
+
+.carousel-container{
+    padding-top: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #FFEFE3;
+   overflow: visible;
+   
+}
+
+.caraousel-img{
+   height: 24rem;
+   width: 20.8rem;
+}
+.play{
+    position: absolute;
+    height: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2rem !important;
+    background-blend-mode: darken;
+}
+
+.next-prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: #FFEFE3;
+}
+.next-prev > img{
+    height: 2.62rem;
+    width: 2.62rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.play, .next-prev > img:hover{
+    cursor: pointer;
+} 
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.banner>img {
+    width: 100%;
+    height: 22.25rem;
+}
+
+.pages1{
+    margin: 0%;
+    padding: 1rem 0 ;
+    background-color: #FFEFE3;
+}
+
+.second-about{
+    background-color: #FFEFE3;
+}
