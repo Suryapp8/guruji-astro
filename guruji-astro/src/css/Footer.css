@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.footer{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #BD5300;
+}
+
+.first-row{
+    width: 25%;
+}
+
+.guruji{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0F0F0 ;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.guruji > img{
+    margin-right: 1rem;
+}
+
+.first-row > p{
+    margin-top: 2rem ;
+    margin-bottom: 2rem ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 138.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.105em;
+    
+    color: #F8F8F8;
+}
+.social-handles > img{
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.partners > h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 110%;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.105em;
+
+color: #F8F8F8;
+}
+
+.partners > img{
+    width: 8rem;
+    height: 3.18rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.give-margin{
+   margin-bottom: 3rem;
+}
+
+.first-column > h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 110%;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.105em;
+
+color: #F8F8F8;
+}
+
+.first-column > p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 138.5%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.105em;
+
+color: #F8F8F8;
+}
+
+.fourth-row{
+   display: flex;
+   flex-direction: column;
+}
+
+.fourth-row > input{
+    height: 2.62rem;
+    margin-bottom: 1rem;
+    background: #FAFAFA;
+border: 1px solid #FBFBFB;
+border-radius: 6px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 0.9rem;
+line-height: 139.8%;
+letter-spacing: 0.055em;
+color: #999999;
+padding: 1rem;
+}
+
+.fourth-row > textarea{
+    margin-bottom: 2.5rem;
+    background: #FAFAFA;
+border: 1px solid #FBFBFB;
+border-radius: 6px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 0.9rem;
+line-height: 139.8%;
+letter-spacing: 0.055em;
+color: #999999;
+padding: 0.5rem;
+padding-left: 1rem;
+}
+
+.button{
+    background-color: #4B9C0C;
+border-radius: 6px;
+border: 1px solid #BD5300;
+height: 3rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+
+letter-spacing: 0.105em;
+text-transform: uppercase;
+
+color: #E9E9E9;
+}

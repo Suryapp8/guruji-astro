@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+.review{
+    background-color: #F2D2BA;
+    height: 38rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+
+    z-index: -2;
+}
+
+
+.reviews{
+    height: 23.16rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: #FFF5EE;
+    z-index: 0;
+    flex-direction: column;
+    background: #FFF5EE;
+    
+}
+
+.reviewer-img{
+    height: 4rem;
+    width: 4rem !important;
+    border-radius: 50%;
+}
+
+.para-container{
+    width: 80%;
+}
+
+.para-review{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #5B2800;
+}

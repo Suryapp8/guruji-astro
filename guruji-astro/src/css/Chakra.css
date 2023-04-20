@@ -8,7 +8,11 @@
 }
 
 .chakra-container{
-    height: 100vh;
+    height: 70vh;
+    background-color: #D9D9D9;
+    z-index: -2;
+    
+    
     
 }
 
@@ -16,6 +20,7 @@
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .box{
@@ -56,5 +61,133 @@
 .img-container > img{
    height: 2rem;
    width: 2rem;
-   
 }
+
+.chakra{
+    border: 1px solid grey;
+}
+
+
+.wheel {
+    border: 2px solid #A95210;
+    border-radius: 50%;
+    /* margin-left: 50px; */
+    margin: 0 2rem;
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    animation-name: wheel;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 2;
+}
+
+  .line {
+    background-color: black;
+    width: 50%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-end;
+  }
+
+  .line:nth-of-type(2) {
+    transform: rotate(30deg);
+  }
+  .line:nth-of-type(3) {
+    transform: rotate(60deg);
+  }
+  .line:nth-of-type(4) {
+    transform: rotate(90deg);
+  }
+  .line:nth-of-type(5) {
+    transform: rotate(120deg);
+  }
+  .line:nth-of-type(6) {
+    transform: rotate(150deg);
+  }
+  .line:nth-of-type(7) {
+    transform: rotate(180deg);
+  }
+  .line:nth-of-type(8) {
+    transform: rotate(210deg);
+  }
+  .line:nth-of-type(9) {
+    transform: rotate(240deg);
+  }
+  .line:nth-of-type(10) {
+    transform: rotate(270deg);
+  }
+  .line:nth-of-type(11) {
+    transform: rotate(300deg);
+  }
+  .line:nth-of-type(12) {
+    transform: rotate(330deg);
+  }
+
+  @keyframes wheel {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+ }
+
+  .stable-sun{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #A95210;
+    background-color: #D9D9D9;
+    z-index: 2;
+  }
+
+
+.stable-sun > img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5rem;
+    transform: translate(-50%, -50%);
+    
+    width: 5rem;
+    z-index: 2;
+    animation-name: sun;
+   
+    animation-iteration-count: infinite;
+    animation-timing-function:step-start;
+}
+
+.wheels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes sun {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
+
+
+
+.zodiac-sign{
+    height:2vw;
+    width: 2vw;
+    z-index: 3;
+    margin: 1.2rem 1rem;
+ }
